@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#LoginHeader {
+    width: 100%;
+    height: 120px;
+    background-color: #04174c;
+}
+
+#LoginHeader ul {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    width: 100%;
+    height: 100%;
+    list-style: none;
+}
+
+#icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    font-size: 50px;
+    height: 100%;
+    background: #2314f1;
+    color: #fff;
+}
+
+#HeaderTitle {
+    width: 40%;
+    font-size: 35px;
+}
+
+#HeaderTitle h2 {
+    color: #fff;
+}
+
+#ContainerForm {
+    width: 100%;
+    height: 100%;
+    margin: 70px 0 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form {
+    display: flex;
+    width: 80%;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 20px 100px 20px;
+    border-radius: 0.5rem;
+    filter: drop-shadow(0 0 27px rgba(0, 0, 0, 0.53));
+    background-color: #ffffff;
+}
+
+.form-title {
+    font-size: 2.25rem;
+    line-height: 1.75rem;
+    font-weight: 600;
+    padding: 25px;
+    text-align: center;
+    color: #000;
+}
+
+.input-container {
+    position: relative;
+    width: 100%;
+}
+
+.input-container input,
+.form button {
+    outline: none;
+    border: 1px solid #e5e7eb;
+    margin: 8px 0;
+}
+
+.icons {
+    font-size: 40px;
+}
+
+.input-container input {
+    background-color: #fff;
+    padding: 1rem;
+    padding-right: 3rem;
+    font-size: 25px;
+    line-height: 1.25rem;
+    width: 60%;
+    padding: 40px;
+    border-radius: 0.5rem;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+
+
+
+.submit {
+    display: block;
+    background-color: #2314f1;
+    color: #ffffff;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: 500;
+    width: 40%;
+    padding: 20px 0 20px 0;
+    border-radius: 0.5rem;
+    text-transform: uppercase;
+}
+
+.submit p {
+    font-size: 25px;
+}
+
+.signup-link {
+    color: #6B7280;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    text-align: center;
+    padding: 10px;
+}
+
+.FinalRow a,
+.FinalRow p {
+    font-size: 20px;
+}

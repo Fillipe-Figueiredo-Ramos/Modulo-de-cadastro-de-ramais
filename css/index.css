@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    padding: 50px;
+}
+
+#RamaisHeader {
+    display: flex;
+    width: 100%;
+    height: 120px;
+    background-color: #04174c;
+}
+
+#RamaisHeader ul {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    width: 100%;
+    height: 100%;
+    list-style: none;
+}
+
+#RamaisHeader h2 {
+    color: #fff;
+}
+
+#headerIcons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    font-size: 50px;
+    height: 100%;
+    background: cornflowerblue;
+    color: #fff;
+    cursor: pointer;
+}
+
+#RamaisTitle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    gap: 10px;
+    align-items: center;
+}
+
+.icon {
+    color: white;
+    font-size: 30px;
+}
+
+#cardContainer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    height: 254px;
+    border-radius: 30px;
+    filter: drop-shadow(0 0 27px rgba(0, 0, 0, 0.53));
+    background-color: #ffffff;
+    flex-direction: column;
+    align-items: center;
+}
+
+#cardTitle {
+    padding: 30px;
+}
+
+#TableRow {
+    display: flex;
+    gap: 250px;
+}
