@@ -1,7 +1,10 @@
-const ShowForm = querrySelector('#AddNew')
-const HideCard = querrySelector('#card')
+const btn = document.querySelector('#AddNew')
 
-ShowForm.addeventListener('click', function(){
-    ShowForm.style.display('flex')
-    HideCard.style.display('none')
-})
+btn.addEventListener("click", function () {
+
+    const ShowForm = document.querySelector(".form-box");
+    ShowForm.setAttribute('style', 'display: flex;');
+
+    const Hidden = document.querySelector(".card")
+    Hidden.setAttribute('style', 'display: none;');
+});
