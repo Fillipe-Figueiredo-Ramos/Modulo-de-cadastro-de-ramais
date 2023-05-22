@@ -27,7 +27,7 @@ main {
     color: #fff;
 }
 
-#headerIcons {
+.headerIcons {
     display: flex;
     justify-content: center;
     align-items: center;
