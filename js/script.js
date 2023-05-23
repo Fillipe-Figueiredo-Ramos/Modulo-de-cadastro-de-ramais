@@ -1,10 +1,15 @@
 const btn = document.querySelector('#AddNew')
+const ShowForm = document.querySelector(".form-box");
+const Hidden = document.querySelector(".card")
 
 btn.addEventListener("click", function () {
-
-    const ShowForm = document.querySelector(".form-box");
     ShowForm.setAttribute('style', 'display: flex;');
-
-    const Hidden = document.querySelector(".card")
     Hidden.setAttribute('style', 'display: none;');
 });
+
+const Closebtn = document.querySelector('#CloseBtn')
+
+Closebtn.addEventListener('click', function(){
+    ShowForm.setAttribute('style', 'display: none;');
+    Hidden.setAttribute('style', 'display: flex;');
+})

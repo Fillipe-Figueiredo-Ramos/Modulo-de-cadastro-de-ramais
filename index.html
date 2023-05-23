@@ -31,18 +31,19 @@
             <div id="cardContainer">
                 <div class="form-box">
                     <form class="form">
-                        <span class="title">Sign up</span>
-                        <span class="subtitle">Create a free account with your email.</span>
-                        <div class="form-container">
-                            <input type="text" class="input" placeholder="Full Name">
-                            <input type="email" class="input" placeholder="Email">
-                            <input type="password" class="input" placeholder="Password">
+                        <div id="CloseBtncotainer">
+                            <span><ion-icon id="CloseBtn" name="close-outline"></ion-icon></span>
                         </div>
-                        <button>Sign up</button>
+                        <span class="title">Registrar Novo</span>
+                        <span class="subtitle">Registre um novo ramal.</span>
+                        <div class="form-container">
+                            <input type="text" class="input" placeholder="Departamento:"> 
+                            <input type="text" class="input" placeholder="Sigla:">
+                            <input type="text" class="input" placeholder="Lotação:">
+                            <input type="text" class="input" placeholder="Ramal:">
+                        </div>
+                        <button>Registrar</button>
                     </form>
-                    <div class="form-section">
-                        <p>Have an account? <a href="">Log in</a> </p>
-                    </div>
                 </div>
                 <div class="card">
                     <div id="cardTitle">
@@ -53,8 +54,8 @@
                             <tr id="TableRow">
                                 <th>Departamento</th>
                                 <th>Sigla</th>
-                                <th>Ramal</th>
                                 <th>Lotação</th>
+                                <th>Ramal</th>
                             </tr>
                         </thead>
                         <tbody>

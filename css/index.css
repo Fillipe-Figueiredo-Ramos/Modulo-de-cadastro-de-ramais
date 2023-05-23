@@ -83,34 +83,47 @@ main {
 
 .form-box {
     display: none;
-    max-width: 300px;
-    background: #f1f7fe;
+    width: 80%;
+    justify-content: center;
     overflow: hidden;
     border-radius: 16px;
     color: #010101;
+    filter: drop-shadow(0 0 27px rgba(0, 0, 0, 0.53));
+    background-color: #ffffff;
+}
+
+#CloseBtncotainer {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#CloseBtn {
+    font-size: 30px;
+    cursor: pointer;
 }
 
 .form {
     position: relative;
     display: flex;
+    width: 80%;
+    align-items: center;
     flex-direction: column;
     padding: 32px 24px 24px;
     gap: 16px;
     text-align: center;
 }
 
-/*Form text*/
 .title {
     font-weight: bold;
-    font-size: 1.6rem;
+    font-size: 25px;
 }
 
 .subtitle {
-    font-size: 1rem;
+    font-size: 25px;
     color: #666;
 }
 
-/*Inputs box*/
 .form-container {
     overflow: hidden;
     border-radius: 8px;
@@ -148,9 +161,8 @@ main {
     text-decoration: underline;
 }
 
-/*Button*/
 .form button {
-    background-color: #0066ff;
+    background-color: cornflowerblue;
     color: #fff;
     border: 0;
     border-radius: 24px;
