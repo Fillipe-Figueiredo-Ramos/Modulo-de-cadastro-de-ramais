@@ -8,3 +8,4 @@ Route::get('/', [IndexController::class, 'RenderHome']);
 
 Route::get('/login.html', [LoginController::class, 'RenderLogin']); 
 
+Route::fallback('');
