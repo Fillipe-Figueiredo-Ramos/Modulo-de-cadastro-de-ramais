@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="{{ assets('css/index.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/index.css') }}">
     <title>Telefones</title>
 </head>
 
@@ -13,7 +13,7 @@
     <header>
         <div id="RamaisHeader">
             <div class="headerIcons">
-                <a href="login.html">
+                <a href="login.blade.php">
                     <ion-icon class="icon" name="person-outline"></ion-icon>
                 </a>
             </div>
@@ -37,10 +37,11 @@
                         <span class="title">Registrar Novo</span>
                         <span class="subtitle">Registre um novo ramal.</span>
                         <div class="form-container">
-                            <input type="text" class="input" placeholder="Departamento:"> 
-                            <input type="text" class="input" placeholder="Sigla:">
-                            <input type="text" class="input" placeholder="Lotação:">
-                            <input type="text" class="input" placeholder="Ramal:">
+                            <input type="text" class="input" placeholder="DESCRIÇÃO LOTAÇÃO ANTERIOR:"> 
+                            <input type="text" class="input" placeholder="SIGLA ANTERIOR:">
+                            <input type="text" class="input" placeholder="DESCRIÇÃO LOTAÇÃO NOVA:">
+                            <input type="text" class="input" placeholder="SIGLA NOVA:">
+                            <input type="text" class="input" placeholder="RAMAL:">
                         </div>
                         <button>Registrar</button>
                     </form>
@@ -52,10 +53,11 @@
                     <table>
                         <thead>
                             <tr id="TableRow">
-                                <th>Departamento</th>
-                                <th>Sigla</th>
-                                <th>Lotação</th>
-                                <th>Ramal</th>
+                                <th>DESCRIÇÃO LOTAÇÃO ANTERIOR</th>
+                                <th>SIGLA ANTERIOR</th>
+                                <th>DESCRIÇÃO LOTAÇÃO NOVA</th>
+                                <th>SIGLA NOVA</th>
+                                <th>RAMAL</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -68,11 +70,7 @@
         </main>
     </header>
 
-
-
-
-    <script>
-    </script>
+    <script src="js/script.js"></script>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
