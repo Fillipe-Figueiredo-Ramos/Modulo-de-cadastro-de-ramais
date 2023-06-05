@@ -37,11 +37,11 @@
                         <span class="title">Registrar Novo</span>
                         <span class="subtitle">Registre um novo ramal.</span>
                         <div class="form-container">
-                            <input type="text" class="input" placeholder="DESCRIÇÃO LOTAÇÃO ANTERIOR:"> 
-                            <input type="text" class="input" placeholder="SIGLA ANTERIOR:">
-                            <input type="text" class="input" placeholder="DESCRIÇÃO LOTAÇÃO NOVA:">
-                            <input type="text" class="input" placeholder="SIGLA NOVA:">
-                            <input type="text" class="input" placeholder="RAMAL:">
+                            <input name="DescAnt" type="text" class="input" placeholder="DESCRIÇÃO LOTAÇÃO ANTERIOR:"> 
+                            <input name="SigAnt" type="text" class="input" placeholder="SIGLA ANTERIOR:">
+                            <input name="DescNov" type="text" class="input" placeholder="DESCRIÇÃO LOTAÇÃO NOVA:">
+                            <input name="Signov" type="text" class="input" placeholder="SIGLA NOVA:">
+                            <input name="Ramal" type="text" class="input" placeholder="RAMAL:">
                         </div>
                         <button>Registrar</button>
                     </form>

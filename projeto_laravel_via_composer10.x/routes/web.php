@@ -8,4 +8,3 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', [LoginController::class, 'RenderLogin']);
 Route::get('/login', [LoginController::class, 'RenderLogin']); 
 Route::get('/home', [HomeController::class, 'RenderHome']);
-Route::get('/form',[FormController::class, 'RenderForm']);
